@@ -18,6 +18,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Signika:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Limelight&family=Marcellus&display=swap" rel="stylesheet">
+
   <!-- End - Fonts -->
   <!-- Start - Fancybox Scripts -->
   <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
@@ -44,14 +46,14 @@
 </head>
 
 <body
-  class="dark:bg-black bg-white h-screen text-black dark:text-white px-5 md:px-20 opacity-0 animate-fade-in transition duration-500">
+  class="dark:bg-black bg-black h-screen text-white dark:text-white px-5 md:px-20 opacity-0 animate-fade-in transition duration-500">
   <!-- Navbar -->
   <header class="flex w-full overflow-hidden pt-10 pb-1">
     <!-- Navbar -->
     <nav id="nav" x-data="{ open: false }" role="navigation" class="w-full">
       <div class="container mx-auto flex flex-wrap items-center md:flex-no-wrap">
         <div class="mr-4 md:mr-8">
-          <a href="index.html" class="text-2xl font-signika font-bold">Nino Amparo</a>
+          <a href="index.html" class="text-4xl marcellus-regular">Nino Amparo</a>
         </div>
         <div class="ml-auto md:hidden flex items-center justify-start">
           <button onclick="menuToggle()" @click="open = !open"
@@ -76,18 +78,18 @@
           <ul id="ulMenu"
             class="flex flex-col duration-300 ease-out md:space-x-5 sm:transition-none mt-5 md:flex-row md:items-center md:ml-auto md:mt-0 md:pt-0 md:border-0">
             <li class="group transition duration-300">
-              <a href="index.html" class="font-signika text-2xl tap-highlight-transparent">Home.
+              <a href="index.html" class="marcellus-regular text-1xl tap-highlight-transparent">Home.
                 <span class="hidden md:block h-0.5 bg-black dark:bg-white"></span>
               </a>
             </li>
             <li class="group transition duration-300">
-              <a href="dist/about_me.html" class="font-signika text-2xl tap-highlight-transparent">About.
+              <a href="dist/about_me.html" class="marcellus-regular text-1xl tap-highlight-transparent">About.
                 <span
                   class="hidden md:block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-black dark:bg-white"></span>
               </a>
             </li>
             <!-- <li class="group transition duration-300">
-              <a href="dist/contact.html" class="font-signika text-2xl tap-highlight-transparent">CONTACT
+              <a href="dist/contact.html" class="marcellus-regular text-2xl tap-highlight-transparent">CONTACT
                 <span
                   class="hidden md:block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-black dark:bg-white"></span>
               </a>
@@ -99,7 +101,7 @@
   </header>
   <!-- Content -->
   <div class="container mx-auto">
-    <!-- <h1 class="text-4xl pt-10 pb-8 font-bold">PORTFOLIO</h1> -->
+    <h1 class="text-2xl pt-10 pb-8 marcellus-regular">Home.</h1>
     <section class="text-neutral-700">
       <div class="container w-full">
         <div class="flex flex-wrap w-full">
@@ -108,7 +110,7 @@
               <div class="overflow-hidden h-full w-full">
                 <a href="https://live.staticflickr.com/65535/54749367813_53d6fe0960_b.jpg"
                   data-fancybox="gallery">
-                  <img alt="a snow covered mountain with trees on the side"
+                  <img alt="bottles sit on shelves with a ray of sunlight slivers through"
                     class="block h-full w-full object-cover object-center opacity-0 animate-fade-in transition duration-500 transform scale-100 hover:scale-110"
                     src="https://live.staticflickr.com/65535/54749367813_53d6fe0960_b.jpg" />
                 </a>
@@ -118,7 +120,7 @@
               <div class="overflow-hidden h-full w-full">
                 <a href="https://live.staticflickr.com/65535/54749499245_a016d5d944_b.jpg"
                   data-fancybox="gallery">
-                  <img alt="a cat laying on top of a sidewalk next to the ocean"
+                  <img alt="a woman in a red dress walks up a hill"
                     class="block h-full w-full object-cover object-center opacity-0 animate-fade-in transition duration-500 transform scale-100 hover:scale-110"
                     src="https://live.staticflickr.com/65535/54749499245_a016d5d944_b.jpg" />
                 </a>
@@ -126,11 +128,11 @@
             </div>
             <div class="w-full p-1">
               <div class="overflow-hidden h-full w-full">
-                <a href="https://live.staticflickr.com/65535/54749159436_f409229ef0_b.jpg"
+                <a href="https://live.staticflickr.com/65535/54752850539_339c313324_b.jpg"
                   data-fancybox="gallery">
-                  <img alt="a branch of a plant floating in a body of water"
+                  <img alt="the roosevelt hotel"
                     class="block h-full w-full object-cover object-center opacity-0 animate-fade-in transition duration-500 transform scale-100 hover:scale-110"
-                    src="https://live.staticflickr.com/65535/54749159436_f409229ef0_b.jpg" />
+                    src="https://live.staticflickr.com/65535/54752850539_339c313324_b.jpg" />
                 </a>
               </div>
             </div>
@@ -140,7 +142,7 @@
               <div class="overflow-hidden h-full w-full">
                 <a href="https://live.staticflickr.com/65535/54749499265_aa2b4d92bb_b.jpg"
                   data-fancybox="gallery">
-                  <img alt="a person standing in front of a rock formation"
+                  <img alt="a man walks down a sidewalk in Hollywood"
                     class="block h-full w-full object-cover object-center opacity-0 animate-fade-in transition duration-500 transform scale-100 hover:scale-110"
                     src="https://live.staticflickr.com/65535/54749499265_aa2b4d92bb_b.jpg" />
                 </a>
@@ -150,7 +152,7 @@
               <div class="overflow-hidden h-full w-full">
                 <a href="https://live.staticflickr.com/65535/54749159456_344c69cdd7_b.jpg"
                   data-fancybox="gallery">
-                  <img alt="a man standing on a beach next to the ocean"
+                  <img alt="a man sits on a set of stairs"
                     class="block h-full w-full object-cover object-center opacity-0 animate-fade-in transition duration-500 transform scale-100 hover:scale-110"
                     src="https://live.staticflickr.com/65535/54749159456_344c69cdd7_b.jpg" />
                 </a>
@@ -158,31 +160,31 @@
             </div>
             <div class="w-full md:w-1/2 p-1">
               <div class="overflow-hidden h-full w-full">
-                <a href="https://images.unsplash.com/photo-1675971074488-351394caf6aa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+                <a href="https://live.staticflickr.com/65535/54749498975_fa933ff058_b.jpg"
                   data-fancybox="gallery">
-                  <img alt="a blue sky with a lot of red and orange clouds"
+                  <img alt="a man sits on empty barrels as he opens his backpack"
                     class="block h-full w-full object-cover object-center opacity-0 animate-fade-in transition duration-500 transform scale-100 hover:scale-110"
-                    src="https://images.unsplash.com/photo-1675971074488-351394caf6aa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80" />
+                    src="https://live.staticflickr.com/65535/54749498975_fa933ff058_b.jpg" />
                 </a>
               </div>
             </div>
             <div class="w-full md:w-1/2 p-1">
               <div class="overflow-hidden h-full w-full">
-                <a href="https://images.unsplash.com/photo-1655908932015-7650b401e2f9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+                <a href="https://live.staticflickr.com/65535/54752802919_7eed95fda6_b.jpg"
                   data-fancybox="gallery">
-                  <img alt="a view of the ocean from the top of a hill"
+                  <img alt="a white car is parked on a sidewalk"
                     class="block h-full w-full object-cover object-center opacity-0 animate-fade-in transition duration-500 transform scale-100 hover:scale-110"
-                    src="https://images.unsplash.com/photo-1655908932015-7650b401e2f9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80" />
+                    src="https://live.staticflickr.com/65535/54752802919_7eed95fda6_b.jpg" />
                 </a>
               </div>
             </div>
             <div class="w-full md:w-1/2 p-1">
               <div class="overflow-hidden h-full w-full">
-                <a href="https://images.unsplash.com/photo-1675189729507-b90d7cb6c592?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1816&q=80"
+                <a href="https://live.staticflickr.com/65535/54752833624_ee73ff91f4_b.jpg"
                   data-fancybox="gallery">
-                  <img alt="a pheasant flying in the sky with its wings spread"
+                  <img alt="a man with his head down with the dolby theater in the background"
                     class="block h-full w-full object-cover object-center opacity-0 animate-fade-in transition duration-500 transform scale-100 hover:scale-110"
-                    src="https://images.unsplash.com/photo-1675189729507-b90d7cb6c592?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1816&q=80" />
+                    src="https://live.staticflickr.com/65535/54752833624_ee73ff91f4_b.jpg" />
                 </a>
               </div>
             </div>
@@ -191,51 +193,52 @@
           <div class="flex w-full md:w-1/2 flex-wrap">
             <div class="w-full p-1">
               <div class="overflow-hidden h-full w-full">
-                <a href="https://images.unsplash.com/photo-1654018869756-d08407972836?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2918&q=80"
+                <a href="https://live.staticflickr.com/65535/54751795772_b99e3f1f62_b.jpg"
                   data-fancybox="gallery">
-                  <img alt="a statue of a man next to a statue of a woman"
+                  <img alt="a man talks to people at a fruit stand"
                     class="block h-full w-full object-cover object-center opacity-0 animate-fade-in transition duration-500 transform scale-100 hover:scale-110"
-                    src="https://images.unsplash.com/photo-1654018869756-d08407972836?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2918&q=80" />
+                    src="https://live.staticflickr.com/65535/54751795772_b99e3f1f62_b.jpg" />
                 </a>
               </div>
             </div>
             <div class="w-full md:w-1/2 p-1">
               <div class="overflow-hidden h-full w-full">
-                <a href="https://images.unsplash.com/photo-1677075610184-57d21d023e5b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1742&q=80"
+                <a href="https://live.staticflickr.com/65535/54752858958_da4108dd40_b.jpg"
                   data-fancybox="gallery">
-                  <img alt="a city street with tall buildings in the background"
+                  <img alt="an RV sits behind a bush of roses"
                     class="block h-full w-full object-cover object-center opacity-0 animate-fade-in transition duration-500 transform scale-100 hover:scale-110"
-                    src="https://images.unsplash.com/photo-1677075610184-57d21d023e5b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1742&q=80" />
+                    src="https://live.staticflickr.com/65535/54752858958_da4108dd40_b.jpg" />
                 </a>
               </div>
             </div>
             <div class="w-full md:w-1/2 p-1">
               <div class="overflow-hidden h-full w-full">
-                <a href="https://images.unsplash.com/photo-1558102400-72da9fdbecae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1592&q=80"
+                <a href="https://live.staticflickr.com/65535/54752881629_1c865ed93d_b.jpg"
                   data-fancybox="gallery">
-                  <img alt="25 de abril bridge spanning over Tagus river"
+                  <img
+                    alt="spider-man carries his cooler down the hollywood walk of fame"
                     class="block h-full w-full object-cover object-center opacity-0 animate-fade-in transition duration-500 transform scale-100 hover:scale-110"
-                    src="https://images.unsplash.com/photo-1558102400-72da9fdbecae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1592&q=80" />
+                    src="https://live.staticflickr.com/65535/54752881629_1c865ed93d_b.jpg" />
                 </a>
               </div>
             </div>
             <div class="w-full md:w-1/2 p-1">
               <div class="overflow-hidden h-full w-full">
-                <a href="https://images.unsplash.com/photo-1510673825466-302bc330ab95?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1744&q=80"
+                <a href="https://live.staticflickr.com/65535/54749159436_f409229ef0_b.jpg"
                   data-fancybox="gallery">
-                  <img alt="a lot of lanterns floating in the air at night"
+                  <img alt="a couple's reflection through glass"
                     class="block h-full w-full object-cover object-center opacity-0 animate-fade-in transition duration-500 transform scale-100 hover:scale-110"
-                    src="https://images.unsplash.com/photo-1510673825466-302bc330ab95?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1744&q=80" />
+                    src="https://live.staticflickr.com/65535/54749159436_f409229ef0_b.jpg" />
                 </a>
               </div>
             </div>
             <div class="w-full md:w-1/2 p-1">
               <div class="overflow-hidden h-full w-full">
-                <a href="https://images.unsplash.com/photo-1675620705848-bcab2d4d98a4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                <a href="https://live.staticflickr.com/65535/54749367868_e21e44af3f_b.jpg"
                   data-fancybox="gallery">
-                  <img alt="a flock of seaguls flying over a body of water"
+                  <img alt="a man's reflection ona mirror"
                     class="block h-full w-full object-cover object-center opacity-0 animate-fade-in transition duration-500 transform scale-100 hover:scale-110"
-                    src="https://images.unsplash.com/photo-1675620705848-bcab2d4d98a4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" />
+                    src="https://live.staticflickr.com/65535/54749367868_e21e44af3f_b.jpg" />
                 </a>
               </div>
             </div>
@@ -243,32 +246,32 @@
           <div class="flex w-full md:w-1/2 flex-wrap">
             <div class="w-full md:w-1/2 p-1">
               <div class="overflow-hidden h-full w-full">
-                <a href="https://images.unsplash.com/photo-1642415390616-2ac6727ac550?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+                <a href="https://live.staticflickr.com/65535/54748306492_fc2df1e9fc_b.jpg"
                   data-fancybox="gallery">
-                  <img alt="a statue of a headless angel"
+                  <img alt="a man without a shirt is walking"
                     class="block h-full w-full object-cover object-center opacity-0 animate-fade-in transition duration-500 transform scale-100 hover:scale-110"
-                    src="https://images.unsplash.com/photo-1642415390616-2ac6727ac550?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" />
+                    src="https://live.staticflickr.com/65535/54748306492_fc2df1e9fc_b.jpg" />
                 </a>
               </div>
             </div>
             <div class="w-full md:w-1/2 p-1">
               <div class="overflow-hidden h-full w-full">
-                <a href="https://images.unsplash.com/photo-1551346072-8ba2706b0f36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2052&q=80"
+                <a href="https://live.staticflickr.com/65535/54752983125_d425f4641f_b.jpg"
                   data-fancybox="gallery">
-                  <img alt="Monument to the Discoveries viewed from top to bottom"
+                  <img alt="a man covers his face from the sunlight"
                     class="block h-full w-full object-cover object-center opacity-0 animate-fade-in transition duration-500 transform scale-100 hover:scale-110"
-                    src="https://images.unsplash.com/photo-1551346072-8ba2706b0f36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2052&q=80" />
+                    src="https://live.staticflickr.com/65535/54752983125_d425f4641f_b.jpg" />
                 </a>
               </div>
             </div>
             <div class="w-full p-1">
               <div class="overflow-hidden h-full w-full">
-                <a href="https://images.unsplash.com/photo-1624385690664-38a3af477cd9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+                <a href="https://live.staticflickr.com/65535/54753041844_a66260f54d_b.jpg"
                   data-fancybox="gallery">
                   <img
-                    alt="a group of people walking along the museum of art, architecture and technology of lisbon next to the Tagus river"
+                    alt="the ovation in hollywood"
                     class="block h-full w-full object-cover object-center opacity-0 animate-fade-in transition duration-500 transform scale-100 hover:scale-110"
-                    src="https://images.unsplash.com/photo-1624385690664-38a3af477cd9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80" />
+                    src="https://live.staticflickr.com/65535/54753041844_a66260f54d_b.jpg" />
                 </a>
               </div>
             </div>
@@ -282,7 +285,7 @@
     <div class="max-w-screen-xl py-16 mx-auto">
       <div class="grid grid-cols-1 gap-8 text-center mx-auto">
         <div>
-          <p class="font-signika"><b>Nino Amparo</b></p>
+          <p class="marcellus-regular">Nino Amparo</p>
           <p class="mt-4 text-sm text-gray-600 dark:text-gray-300">
             Los Angeles, CA<br />
           </p>
